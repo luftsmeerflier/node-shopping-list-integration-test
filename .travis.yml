@@ -1,2 +1,10 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: TwWvWmwWuM6mywAuqOq3IKoriEgyC0WwcUWfZfuV9UfVB/1PR65LPqGWZdXwfsOLCtGT5Hh3wimJl74jyappWzJQcRp5phlctQVCAYjvjgKYA8Rh9BvzdJVIoZ+LPzwrl8krdSsCAW0LQAwq2K8Cd/STPTn+nd2T2vBRiLtIyXf+qJG0HI3opw7tOgZwzMs0RWTO7c3f3EUjUSfv1K73lzqyYQFrQ+9/KaUplJmyB3r9ORjtH7oFJZ4NELVQLnzGZ8ZSuBm33Zv+1aroq3LOTN/gf3clMPM0ElfYKG6+Zy2XbYGSqeuvPwrYpvps6otwsb52sAVUg75WgYPgbafEsmgYvQQ9otD1MN/y8h8WEnbjRCRJHxTJ0STdGKUovFDmWi0ANRQ//tEBZth2NaJRIbvzkStCbaseDDB1mD3eY++ojUq6IxjCTTXlA9JU0AzUDFUv9xwN6lPXLfsyZcdkY3cAP77GuXmJ3sLaGHyysqLRez+uf+Qfv7JLZciNuQkvc+LHs7VZ6hYMpcfU8pBtfsF49YbGgXYrF09RHflmYZAJr0Xw+Wb8kQvJZiK52om/QX6RT9eucOz3T/U6c9Sq5dEsc0I9tHT0TJDqscMwTrxsxYVkScWlsK/4R2Vu0lIa6ChmSuc9Wk81ls3RkIxMkBPmceBCSvqupelV2wzvjXE=
+  app: blooming-lowlands-60505 
+  on:
+    repo: olyskoop/node-shopping-list-integration-test
+    branch: test-for-recipes
